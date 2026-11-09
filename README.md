@@ -17,11 +17,10 @@
 | [Editor de Reels automático](#1-editor-de-reels-automático) | Vídeo bruto entra, Reels editado e postado sai | [@celo.tech](https://www.instagram.com/celo.tech/) |
 | [Sede de agentes de IA](#2-sede-celotech-empresa-de-agentes-de-ia) | 8 agentes que tocam o meu Instagram, num escritório 3D | Demo abaixo |
 | [Planilha Adeus Dívidas](#3-planilha-adeus-dívidas-produto-digital-com-vendas-reais) | Produto digital com página, checkout e anúncios rodando | [no ar](https://planilha-adeus-dividas.netlify.app) |
-| [Sobra](#4-sobra-saas-de-finanças-pessoais) | SaaS de finanças em Next.js + Supabase | Demo abaixo |
-| [Loja KRAVEN](#5-loja-kraven) | E-commerce completo de roupa fitness | [no ar](https://kraven-loja.netlify.app) |
-| [Site da Algup](#6-site-da-algup) | Site de agência feito para vender pelo WhatsApp | [no ar](https://algup.netlify.app) |
-| [Portfólio de edição](#7-portfólio-de-edição-de-vídeo) | One-page com vídeos para captar clientes | [no ar](https://marcello-portfolio.pages.dev) |
-| [Robô SDR de prospecção](#8-robô-sdr-de-prospecção) | Acha leads, escreve a 1ª mensagem e conduz até a reunião | Código privado (dados de leads) |
+| [Loja KRAVEN](#4-loja-kraven) | E-commerce completo de roupa fitness | [no ar](https://kraven-loja.netlify.app) |
+| [Site da Algup](#5-site-da-algup) | Site de agência feito para vender pelo WhatsApp | [no ar](https://algup.netlify.app) |
+| [Portfólio de edição](#6-portfólio-de-edição-de-vídeo) | One-page com vídeos para captar clientes | [no ar](https://marcello-portfolio.pages.dev) |
+| [Robô SDR de prospecção](#7-robô-sdr-de-prospecção) | Acha leads, escreve a 1ª mensagem e conduz até a reunião | Código privado (dados de leads) |
 
 ---
 
@@ -58,19 +57,7 @@
 
 ---
 
-## 4. Sobra: SaaS de finanças pessoais
-
-**Problema:** apps de finanças mostram o que você gastou, mas não respondem a pergunta que importa: *quanto ainda posso gastar até a próxima renda?*
-
-**O que faz:** mostra o saldo, o "Livre pra gastar" por dia e os compromissos do mês, e tem um simulador "Posso comprar?" que diz se uma compra cabe, à vista ou parcelada.
-
-**Como construí:** Next.js 16, React 19, TypeScript, Supabase (PostgreSQL), Zod e testes E2E com Playwright, a partir de um PRD. Está em desenvolvimento: o modo demonstração funciona, e o backend no Supabase ainda não foi validado com um projeto real.
-
-<p align="center"><img src="demos/sobra.webp" width="300" alt="Telas do Sobra: início, Posso comprar, movimentos, planejamento"></p>
-
----
-
-## 5. Loja KRAVEN
+## 4. Loja KRAVEN
 
 E-commerce de camisetas oversized de academia: catálogo com filtros, páginas de drop, carrinho com barra de frete grátis, kit "Leve 3" com desconto automático, cupom, "Qual meu tamanho?" e checkout (em modo demonstração, sem cobrança). Next.js com exportação estática.
 
@@ -78,7 +65,7 @@ E-commerce de camisetas oversized de academia: catálogo com filtros, páginas d
 
 ---
 
-## 6. Site da Algup
+## 5. Site da Algup
 
 Site de uma agência de audiovisual e tráfego pago, feito para ser enviado por WhatsApp a quem pode virar cliente: tem que convencer numa única visita, pelo celular e em conexão ruim. HTML, CSS e JS puros, com hero animado por quadros e vídeos otimizados.
 
@@ -86,7 +73,7 @@ Site de uma agência de audiovisual e tráfego pago, feito para ser enviado por 
 
 ---
 
-## 7. Portfólio de edição de vídeo
+## 6. Portfólio de edição de vídeo
 
 One-page dark com os meus trabalhos de edição em vídeo vertical e um botão para chamar no WhatsApp.
 
@@ -94,7 +81,7 @@ One-page dark com os meus trabalhos de edição em vídeo vertical e um botão p
 
 ---
 
-## 8. Robô SDR de prospecção
+## 7. Robô SDR de prospecção
 
 Robô de vendas para a Algup, nas versões WhatsApp e Instagram. A base é um projeto do meu irmão, Gui De Paoli. Eu adaptei para Windows, mudei o público e as ofertas, e criei a versão de Instagram. Ele acha profissionais autônomos, avalia o site de cada um, escreve a primeira mensagem de um jeito humano, conversa seguindo o SPIN Selling, faz follow-up e leva o lead até a reunião. Tem CRM em Google Sheets e painel. No Instagram é semiautomático, de propósito, para não arriscar a conta: o robô escreve e eu envio.
 
