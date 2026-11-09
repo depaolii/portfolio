@@ -2,7 +2,7 @@
 
 # Marcello De Paoli
 
-**Vibe coder.** Crio com Claude Code sistemas que editam vídeo, publicam conteúdo, prospectam clientes e vendem produto digital.
+**Vibe coder.** Crio com Claude Code sistemas que editam vídeo, publicam conteúdo e prospectam clientes.
 
 [Instagram @celo.tech](https://www.instagram.com/celo.tech/) · [GitHub](https://github.com/depaolii)
 
@@ -20,11 +20,10 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 | 2 | [Sede de agentes](#2-sede-de-agentes) | 8 agentes de IA produzem meu Instagram | [Demo](#2-sede-de-agentes) |
 | 3 | [Carrosséis do @celo.tech](#3-carrosséis-do-celotech) | Pesquisa, cria e publica posts de IA todo dia | [Abrir](https://www.instagram.com/celo.tech/) |
 | 4 | [Carrosséis da AlgUp](#4-carrosséis-da-algup) | Carrosséis automáticos para uma agência de marketing | [Abrir](https://www.instagram.com/algupdigital/) |
-| 5 | [Planilha Adeus Dívidas](#5-planilha-adeus-dívidas) | Produto digital com vendas reais | [Abrir](https://planilha-adeus-dividas.netlify.app) |
-| 6 | [Loja KRAVEN](#6-loja-kraven) | E-commerce de camisetas de academia | [Abrir](https://kraven-loja.netlify.app) |
-| 7 | [Site da Algup](#7-site-da-algup) | Site de agência para enviar por WhatsApp | [Abrir](https://algup.netlify.app) |
-| 8 | [Portfólio de edição](#8-portfólio-de-edição) | Página com meus vídeos para captar clientes | [Abrir](https://marcello-portfolio.pages.dev) |
-| 9 | [Robô de prospecção](#9-robô-de-prospecção) | Encontra leads e conversa até a reunião | Privado |
+| 5 | [Loja KRAVEN](#5-loja-kraven) | E-commerce de camisetas de academia | [Abrir](https://kraven-loja.netlify.app) |
+| 6 | [Site da Algup](#6-site-da-algup) | Site de agência para enviar por WhatsApp | [Abrir](https://algup.netlify.app) |
+| 7 | [Portfólio de edição](#7-portfólio-de-edição) | Página com meus vídeos para captar clientes | [Abrir](https://marcello-portfolio.pages.dev) |
+| 8 | [Robô de prospecção](#8-robô-de-prospecção) | Encontra leads e conversa até a reunião | Privado |
 
 ---
 
@@ -108,26 +107,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 5. Planilha Adeus Dívidas
-
-**O que faz:** produto digital para organizar e quitar dívidas, já com compradores reais.
-
-**O que eu criei:**
-
-1. A planilha e os bônus.
-2. A página de vendas, com depoimentos de compradores.
-3. O checkout na Kiwify.
-4. As campanhas no Meta Ads, testando criativos diferentes.
-
-**Feito com:** Netlify, Kiwify e Meta Ads.
-
-<p align="center"><a href="https://planilha-adeus-dividas.netlify.app"><img src="demos/planilha.webp" width="260" alt="Página de vendas no celular"></a></p>
-
-[↑ Voltar ao início](#como-navegar)
-
----
-
-## 6. Loja KRAVEN
+## 5. Loja KRAVEN
 
 **O que faz:** loja virtual de camisetas oversized de academia.
 
@@ -146,7 +126,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 7. Site da Algup
+## 6. Site da Algup
 
 **O que faz:** apresenta uma agência de audiovisual e tráfego pago para quem recebe o link pelo WhatsApp.
 
@@ -160,7 +140,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 8. Portfólio de edição
+## 7. Portfólio de edição
 
 **O que faz:** mostra 9 vídeos verticais editados por mim, com um botão para chamar no WhatsApp.
 
@@ -172,7 +152,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 9. Robô de prospecção
+## 8. Robô de prospecção
 
 **O que faz:** encontra profissionais autônomos e conduz a conversa até marcar uma reunião.
 
