@@ -17,7 +17,7 @@
 | [Editor de Reels automático](#1-editor-de-reels-automático) | Vídeo bruto entra, Reels editado e postado sai | [@celo.tech](https://www.instagram.com/celo.tech/) |
 | [Sede de agentes de IA](#2-sede-celotech-empresa-de-agentes-de-ia) | 8 agentes que tocam o meu Instagram, num escritório 3D | Demo abaixo |
 | [Planilha Adeus Dívidas](#3-planilha-adeus-dívidas-produto-digital-com-vendas-reais) | Produto digital com página, checkout e anúncios rodando | [no ar](https://planilha-adeus-dividas.netlify.app) |
-| [Sobra](#4-sobra-saas-de-finanças-pessoais) | SaaS de finanças em Next.js + Supabase | [no ar (demo)](https://sobra-demo-depaolii.netlify.app) |
+| [Sobra](#4-sobra-saas-de-finanças-pessoais) | SaaS de finanças em Next.js + Supabase | Demo abaixo |
 | [Loja KRAVEN](#5-loja-kraven) | E-commerce completo de roupa fitness | [no ar](https://kraven-loja.netlify.app) |
 | [Site da Algup](#6-site-da-algup) | Site de agência feito para vender pelo WhatsApp | [no ar](https://algup.netlify.app) |
 | [Portfólio de edição](#7-portfólio-de-edição-de-vídeo) | One-page com vídeos para captar clientes | [no ar](https://marcello-portfolio.pages.dev) |
@@ -66,7 +66,7 @@
 
 **Como construí:** Next.js 16, React 19, TypeScript, Supabase (PostgreSQL), Zod e testes E2E com Playwright, a partir de um PRD. Está em desenvolvimento: o modo demonstração funciona, e o backend no Supabase ainda não foi validado com um projeto real.
 
-<p align="center"><a href="https://sobra-demo-depaolii.netlify.app"><img src="demos/sobra.webp" width="300" alt="Telas do Sobra: início, Posso comprar, movimentos, planejamento"></a></p>
+<p align="center"><img src="demos/sobra.webp" width="300" alt="Telas do Sobra: início, Posso comprar, movimentos, planejamento"></p>
 
 ---
 
