@@ -18,11 +18,13 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 |:-:|---|---|:-:|
 | 1 | [Editor de Reels](#1-editor-de-reels) | Entra o vídeo bruto, sai o Reels editado | [Abrir](https://www.instagram.com/celo.tech/) |
 | 2 | [Sede de agentes](#2-sede-de-agentes) | 8 agentes de IA produzem meu Instagram | [Demo](#2-sede-de-agentes) |
-| 3 | [Planilha Adeus Dívidas](#3-planilha-adeus-dívidas) | Produto digital com vendas reais | [Abrir](https://planilha-adeus-dividas.netlify.app) |
-| 4 | [Loja KRAVEN](#4-loja-kraven) | E-commerce de camisetas de academia | [Abrir](https://kraven-loja.netlify.app) |
-| 5 | [Site da Algup](#5-site-da-algup) | Site de agência para enviar por WhatsApp | [Abrir](https://algup.netlify.app) |
-| 6 | [Portfólio de edição](#6-portfólio-de-edição) | Página com meus vídeos para captar clientes | [Abrir](https://marcello-portfolio.pages.dev) |
-| 7 | [Robô de prospecção](#7-robô-de-prospecção) | Encontra leads e conversa até a reunião | Privado |
+| 3 | [Carrosséis do @celo.tech](#3-carrosséis-do-celotech) | Pesquisa, cria e publica posts de IA todo dia | [Abrir](https://www.instagram.com/celo.tech/) |
+| 4 | [Carrosséis da AlgUp](#4-carrosséis-da-algup) | Carrosséis automáticos para uma agência de marketing | [Abrir](https://www.instagram.com/algupdigital/) |
+| 5 | [Planilha Adeus Dívidas](#5-planilha-adeus-dívidas) | Produto digital com vendas reais | [Abrir](https://planilha-adeus-dividas.netlify.app) |
+| 6 | [Loja KRAVEN](#6-loja-kraven) | E-commerce de camisetas de academia | [Abrir](https://kraven-loja.netlify.app) |
+| 7 | [Site da Algup](#7-site-da-algup) | Site de agência para enviar por WhatsApp | [Abrir](https://algup.netlify.app) |
+| 8 | [Portfólio de edição](#8-portfólio-de-edição) | Página com meus vídeos para captar clientes | [Abrir](https://marcello-portfolio.pages.dev) |
+| 9 | [Robô de prospecção](#9-robô-de-prospecção) | Encontra leads e conversa até a reunião | Privado |
 
 ---
 
@@ -68,7 +70,45 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 3. Planilha Adeus Dívidas
+## 3. Carrosséis do @celo.tech
+
+**O que faz:** cria e publica posts sobre novidades de IA e tecnologia no meu perfil, todos os dias.
+
+**Como funciona:**
+
+1. Pesquisa as notícias do dia.
+2. Escolhe o formato que combina com a notícia: carrossel, imagem única ou vídeo.
+3. Cria os slides e a legenda, citando as fontes.
+4. O post entra na fila de aprovação pelo Telegram e sai às 12h ou às 18h.
+
+**Feito com:** Claude Code, Node.js, Telegram e API do Instagram.
+
+<p align="center"><img src="demos/carrossel-celo.webp" width="320" alt="Carrossel do @celo.tech passando slide a slide"></p>
+
+[↑ Voltar ao início](#como-navegar)
+
+---
+
+## 4. Carrosséis da AlgUp
+
+**O que faz:** escolhe a pauta, cria e publica os carrosséis da agência de marketing AlgUp, toda segunda e sexta.
+
+**Como funciona:**
+
+1. Escolhe a pauta do post.
+2. Monta de 6 a 8 slides com pouco texto, sempre com uma composição nova.
+3. Manda para aprovação no Telegram. Nada é publicado sem aprovação.
+4. Depois de aprovado, publica às 11h30, chamando para o WhatsApp.
+
+**Feito com:** Claude Code, Node.js, Telegram e API do Instagram.
+
+<p align="center"><img src="demos/carrossel-algup.webp" width="320" alt="Carrossel da AlgUp passando slide a slide"></p>
+
+[↑ Voltar ao início](#como-navegar)
+
+---
+
+## 5. Planilha Adeus Dívidas
 
 **O que faz:** produto digital para organizar e quitar dívidas, já com compradores reais.
 
@@ -87,7 +127,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 4. Loja KRAVEN
+## 6. Loja KRAVEN
 
 **O que faz:** loja virtual de camisetas oversized de academia.
 
@@ -106,7 +146,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 5. Site da Algup
+## 7. Site da Algup
 
 **O que faz:** apresenta uma agência de audiovisual e tráfego pago para quem recebe o link pelo WhatsApp.
 
@@ -120,7 +160,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 6. Portfólio de edição
+## 8. Portfólio de edição
 
 **O que faz:** mostra 9 vídeos verticais editados por mim, com um botão para chamar no WhatsApp.
 
@@ -132,7 +172,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 7. Robô de prospecção
+## 9. Robô de prospecção
 
 **O que faz:** encontra profissionais autônomos e conduz a conversa até marcar uma reunião.
 
