@@ -27,8 +27,6 @@
 
 ## 1. Editor de Reels automático
 
-**Problema:** editar um Reels levava horas, e eu precisava postar todo dia.
-
 **O que faz:** eu mando só o vídeo bruto e o roteiro. O sistema corta pausas e erros de fala, busca vídeos de apoio em bancos de imagem, monta a tela dividida, coloca legenda, música, efeitos e cor, e manda para o meu Telegram. Eu aprovo pelo celular e ele posta no horário.
 
 **Como construí:** Claude Code + Python + ffmpeg, organizado em *skills*. Cada tipo de vídeo tem as próprias regras, e cada correção que eu faço vira regra nova. Hoje tenho skills para Reels pessoais, Reels de notícia, motion graphics, anúncios da Óticas Góes (5 criativos aprovados pelo cliente), imóveis da Marangoni, cosméticos da Tuon e vídeos de casamento.
@@ -42,9 +40,9 @@
 
 **Problema:** produzir conteúdo todo dia sozinho, sem equipe.
 
-**O que faz:** 8 agentes (Atlas, Radar, Verbo, Traço, Lupa, Olho, Pena, Postal) pesquisam notícias de IA, escrevem, desenham carrosséis e publicam 2 posts por dia no @celo.tech. Eu só gravo o Reels de manhã e aprovo ou veto pelo painel. O escritório é um mapa 3D ao vivo: dá para ver cada agente trabalhando, a fila do dia, o que já saiu, o que precisa de mim e os resultados de cada post.
+**O que faz:** 8 agentes (Atlas, Radar, Verbo, Traço, Lupa, Olho, Pena, Postal) pesquisam notícias de IA, escrevem, desenham carrosséis e publicam 2 posts por dia no @celo.tech. Eu só gravo o Reels de manhã e acompanho pelo painel. O escritório é um mapa 3D ao vivo: dá para ver cada agente trabalhando, a fila do dia, o que já saiu, o que precisa de mim e os resultados de cada post.
 
-**Como construí:** Node.js, painel web com cena 3D, rotinas agendadas, aprovação pelo Telegram e API do Instagram.
+**Como construí:** Node.js, Three.js na cena 3D, rotinas agendadas, Claude Code rodando cada tarefa e integração com Telegram e Instagram. O executor de tarefas foi adaptado de um projeto do meu irmão, Gui De Paoli.
 
 <p align="center"><img src="demos/sede-agentes.webp" width="900" alt="Sede 3D com os agentes e o painel QG"></p>
 
@@ -66,7 +64,7 @@
 
 **O que faz:** mostra o saldo, o "Livre pra gastar" por dia e os compromissos do mês, e tem um simulador "Posso comprar?" que diz se uma compra cabe, à vista ou parcelada.
 
-**Como construí:** Next.js 16, React 19, TypeScript, Supabase (PostgreSQL), Zod e testes E2E com Playwright. A partir de um PRD que eu escrevi.
+**Como construí:** Next.js 16, React 19, TypeScript, Supabase (PostgreSQL), Zod e testes E2E com Playwright, a partir de um PRD. Está em desenvolvimento: o modo demonstração funciona, e o backend no Supabase ainda não foi validado com um projeto real.
 
 <p align="center"><img src="demos/sobra.webp" width="300" alt="Telas do Sobra: início, Posso comprar, movimentos, planejamento"></p>
 
@@ -74,7 +72,7 @@
 
 ## 5. Loja KRAVEN
 
-E-commerce de roupa fitness com 30+ páginas: catálogo com filtros, páginas de drop, carrinho com barra de frete grátis, kit "Leve 3" com desconto automático, cupom, "Qual meu tamanho?" e checkout (em modo demonstração, sem cobrança). Next.js com exportação estática.
+E-commerce de camisetas oversized de academia: catálogo com filtros, páginas de drop, carrinho com barra de frete grátis, kit "Leve 3" com desconto automático, cupom, "Qual meu tamanho?" e checkout (em modo demonstração, sem cobrança). Next.js com exportação estática.
 
 <p align="center"><a href="https://kraven-loja.netlify.app"><img src="demos/kraven.webp" width="300" alt="Loja KRAVEN no celular"></a></p>
 
@@ -98,10 +96,7 @@ One-page dark com os meus trabalhos de edição em vídeo vertical e um botão p
 
 ## 8. Robô SDR de prospecção
 
-Robô de vendas para a Algup, nas versões WhatsApp e Instagram. Ele acha profissionais autônomos, avalia o site de cada um, escreve a primeira mensagem de um jeito humano, conversa seguindo o SPIN Selling, faz follow-up e leva o lead até a reunião. Tem CRM em Google Sheets e painel. No Instagram é semiautomático, de propósito, para não arriscar a conta: o robô escreve e eu envio.
+Robô de vendas para a Algup, nas versões WhatsApp e Instagram. A base é um projeto do meu irmão, Gui De Paoli. Eu adaptei para Windows, mudei o público e as ofertas, e criei a versão de Instagram. Ele acha profissionais autônomos, avalia o site de cada um, escreve a primeira mensagem de um jeito humano, conversa seguindo o SPIN Selling, faz follow-up e leva o lead até a reunião. Tem CRM em Google Sheets e painel. No Instagram é semiautomático, de propósito, para não arriscar a conta: o robô escreve e eu envio.
 
 *O código é privado porque guarda dados de leads (LGPD).*
 
----
-
-<div align="center"><sub>Tudo aqui foi construído com Claude Code.</sub></div>
