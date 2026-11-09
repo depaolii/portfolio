@@ -1,8 +1,8 @@
 <div align="center">
 
-# Marcello De Paoli · Portfólio
+# Marcello De Paoli
 
-**Vibe coder.** Construo sistemas com Claude Code que fazem o trabalho sozinhos: editam vídeo, publicam conteúdo, prospectam clientes e vendem produto digital.
+**Vibe coder.** Crio com Claude Code sistemas que editam vídeo, publicam conteúdo, prospectam clientes e vendem produto digital.
 
 [Instagram @celo.tech](https://www.instagram.com/celo.tech/) · [GitHub](https://github.com/depaolii)
 
@@ -10,80 +10,143 @@
 
 ---
 
-## Projetos
+## Como navegar
 
-| Projeto | O que é | Link |
-|---|---|---|
-| [Editor de Reels automático](#1-editor-de-reels-automático) | Vídeo bruto entra, Reels editado e postado sai | [@celo.tech](https://www.instagram.com/celo.tech/) |
-| [Sede de agentes de IA](#2-sede-celotech-empresa-de-agentes-de-ia) | 8 agentes que tocam o meu Instagram, num escritório 3D | Demo abaixo |
-| [Planilha Adeus Dívidas](#3-planilha-adeus-dívidas-produto-digital-com-vendas-reais) | Produto digital com página, checkout e anúncios rodando | [no ar](https://planilha-adeus-dividas.netlify.app) |
-| [Loja KRAVEN](#4-loja-kraven) | E-commerce completo de roupa fitness | [no ar](https://kraven-loja.netlify.app) |
-| [Site da Algup](#5-site-da-algup) | Site de agência feito para vender pelo WhatsApp | [no ar](https://algup.netlify.app) |
-| [Portfólio de edição](#6-portfólio-de-edição-de-vídeo) | One-page com vídeos para captar clientes | [no ar](https://marcello-portfolio.pages.dev) |
-| [Robô SDR de prospecção](#7-robô-sdr-de-prospecção) | Acha leads, escreve a 1ª mensagem e conduz até a reunião | Código privado (dados de leads) |
+Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o que está no ar.
 
----
-
-## 1. Editor de Reels automático
-
-**O que faz:** eu mando só o vídeo bruto e o roteiro. O sistema corta pausas e erros de fala, busca vídeos de apoio em bancos de imagem, monta a tela dividida, coloca legenda, música, efeitos e cor, e manda para o meu Telegram. Eu aprovo pelo celular e ele posta no horário.
-
-**Como construí:** Claude Code + Python + ffmpeg, organizado em *skills*. Cada tipo de vídeo tem as próprias regras, e cada correção que eu faço vira regra nova. Hoje tenho skills para Reels pessoais, Reels de notícia, motion graphics, anúncios da Óticas Góes (5 criativos aprovados pelo cliente), imóveis da Marangoni, cosméticos da Tuon e vídeos de casamento.
-
-<p align="center"><img src="demos/reels-bruto-vs-final.webp" width="540" alt="Bruto de 4min08 ao lado do Reels editado de 1min45"></p>
-<p align="center"><sub>À esquerda, o bruto de 4min08. À direita, o Reels de 1min45 que o sistema entregou. <a href="demos/reels-bruto-vs-final.mp4">Ver com som</a></sub></p>
+| | Projeto | Em uma frase | Ver |
+|:-:|---|---|:-:|
+| 1 | [Editor de Reels](#1-editor-de-reels) | Entra o vídeo bruto, sai o Reels editado | [Abrir](https://www.instagram.com/celo.tech/) |
+| 2 | [Sede de agentes](#2-sede-de-agentes) | 8 agentes de IA produzem meu Instagram | [Demo](#2-sede-de-agentes) |
+| 3 | [Planilha Adeus Dívidas](#3-planilha-adeus-dívidas) | Produto digital com vendas reais | [Abrir](https://planilha-adeus-dividas.netlify.app) |
+| 4 | [Loja KRAVEN](#4-loja-kraven) | E-commerce de camisetas de academia | [Abrir](https://kraven-loja.netlify.app) |
+| 5 | [Site da Algup](#5-site-da-algup) | Site de agência para enviar por WhatsApp | [Abrir](https://algup.netlify.app) |
+| 6 | [Portfólio de edição](#6-portfólio-de-edição) | Página com meus vídeos para captar clientes | [Abrir](https://marcello-portfolio.pages.dev) |
+| 7 | [Robô de prospecção](#7-robô-de-prospecção) | Encontra leads e conversa até a reunião | Privado |
 
 ---
 
-## 2. Sede celo.tech: empresa de agentes de IA
+## 1. Editor de Reels
 
-**Problema:** produzir conteúdo todo dia sozinho, sem equipe.
+**O que faz:** transforma um vídeo bruto e um roteiro em um Reels pronto para postar.
 
-**O que faz:** 8 agentes (Atlas, Radar, Verbo, Traço, Lupa, Olho, Pena, Postal) pesquisam notícias de IA, escrevem, desenham carrosséis e publicam 2 posts por dia no @celo.tech. Eu só gravo o Reels de manhã e acompanho pelo painel. O escritório é um mapa 3D ao vivo: dá para ver cada agente trabalhando, a fila do dia, o que já saiu, o que precisa de mim e os resultados de cada post.
+**Como funciona:**
 
-**Como construí:** Node.js, Three.js na cena 3D, rotinas agendadas, Claude Code rodando cada tarefa e integração com Telegram e Instagram. O executor de tarefas foi adaptado de um projeto do meu irmão, Gui De Paoli.
+1. Eu envio o vídeo bruto e o roteiro.
+2. O sistema corta pausas e erros de fala.
+3. Ele escolhe vídeos de apoio e coloca legenda, música, efeitos e cor.
+4. O Reels chega no meu Telegram. Eu aprovo e ele posta no horário.
 
-<p align="center"><img src="demos/sede-agentes.webp" width="900" alt="Sede 3D com os agentes e o painel QG"></p>
+**Exemplo real:** um bruto de 4min08 virou um Reels de 1min45.
+
+**Também usado em:** anúncios da Óticas Góes (5 criativos aprovados), Reels de imóveis da Marangoni e Reels da Tuon Cosméticos.
+
+**Feito com:** Claude Code, Python e ffmpeg.
+
+<p align="center"><img src="demos/reels-bruto-vs-final.webp" width="480" alt="Vídeo bruto ao lado do Reels editado"><br><sub>Bruto à esquerda, editado à direita. <a href="demos/reels-bruto-vs-final.mp4">Ver com som</a></sub></p>
+
+[↑ Voltar ao início](#como-navegar)
 
 ---
 
-## 3. Planilha Adeus Dívidas: produto digital com vendas reais
+## 2. Sede de agentes
 
-**Problema:** validar um produto digital barato do zero.
+**O que faz:** uma equipe de 8 agentes de IA produz o conteúdo do @celo.tech, e um escritório 3D mostra tudo ao vivo.
 
-**O que fiz:** criei a planilha, a página de vendas, os bônus, o checkout na Kiwify e as campanhas no Meta Ads com teste A/B de criativos e UTMs passando até o checkout. O produto já tem compradores reais, e os depoimentos na página são deles.
+**Como funciona:**
 
-<p align="center"><a href="https://planilha-adeus-dividas.netlify.app"><img src="demos/planilha.webp" width="300" alt="Página de vendas da Planilha Adeus Dívidas"></a></p>
+1. Os agentes pesquisam notícias de IA.
+2. Eles escrevem e criam os posts.
+3. Os posts são publicados 2 vezes por dia.
+4. Eu gravo o Reels de manhã e acompanho o resto pelo painel.
+
+**Feito com:** Claude Code, Node.js e Three.js, com integração ao Telegram e ao Instagram. O executor de tarefas foi adaptado de um projeto do meu irmão, Gui De Paoli.
+
+<p align="center"><img src="demos/sede-agentes.webp" width="800" alt="Escritório 3D com os agentes e o painel do dia"></p>
+
+[↑ Voltar ao início](#como-navegar)
+
+---
+
+## 3. Planilha Adeus Dívidas
+
+**O que faz:** produto digital para organizar e quitar dívidas, já com compradores reais.
+
+**O que eu criei:**
+
+1. A planilha e os bônus.
+2. A página de vendas, com depoimentos de compradores.
+3. O checkout na Kiwify.
+4. As campanhas no Meta Ads, testando criativos diferentes.
+
+**Feito com:** Netlify, Kiwify e Meta Ads.
+
+<p align="center"><a href="https://planilha-adeus-dividas.netlify.app"><img src="demos/planilha.webp" width="260" alt="Página de vendas no celular"></a></p>
+
+[↑ Voltar ao início](#como-navegar)
 
 ---
 
 ## 4. Loja KRAVEN
 
-E-commerce de camisetas oversized de academia: catálogo com filtros, páginas de drop, carrinho com barra de frete grátis, kit "Leve 3" com desconto automático, cupom, "Qual meu tamanho?" e checkout (em modo demonstração, sem cobrança). Next.js com exportação estática.
+**O que faz:** loja virtual de camisetas oversized de academia.
 
-<p align="center"><a href="https://kraven-loja.netlify.app"><img src="demos/kraven.webp" width="300" alt="Loja KRAVEN no celular"></a></p>
+**O que tem:**
+
+1. Catálogo com filtros e páginas de drop.
+2. Carrinho com barra de frete grátis e kit "Leve 3" com desconto automático.
+3. Cupom e "Qual meu tamanho?".
+4. Checkout em modo demonstração, sem cobrança.
+
+**Feito com:** Next.js.
+
+<p align="center"><a href="https://kraven-loja.netlify.app"><img src="demos/kraven.webp" width="260" alt="Loja KRAVEN no celular"></a></p>
+
+[↑ Voltar ao início](#como-navegar)
 
 ---
 
 ## 5. Site da Algup
 
-Site de uma agência de audiovisual e tráfego pago, feito para ser enviado por WhatsApp a quem pode virar cliente: tem que convencer numa única visita, pelo celular e em conexão ruim. HTML, CSS e JS puros, com hero animado por quadros e vídeos otimizados.
+**O que faz:** apresenta uma agência de audiovisual e tráfego pago para quem recebe o link pelo WhatsApp.
 
-<p align="center"><a href="https://algup.netlify.app"><img src="demos/algup.webp" width="300" alt="Site da Algup no celular"></a></p>
+**O foco:** convencer em uma única visita, pelo celular, mesmo com internet ruim.
 
----
+**Feito com:** HTML, CSS e JavaScript puros.
 
-## 6. Portfólio de edição de vídeo
+<p align="center"><a href="https://algup.netlify.app"><img src="demos/algup.webp" width="260" alt="Site da Algup no celular"></a></p>
 
-One-page dark com os meus trabalhos de edição em vídeo vertical e um botão para chamar no WhatsApp.
-
-<p align="center"><a href="https://marcello-portfolio.pages.dev"><img src="demos/portfolio-edicao.webp" width="300" alt="Portfólio de edição no celular"></a></p>
+[↑ Voltar ao início](#como-navegar)
 
 ---
 
-## 7. Robô SDR de prospecção
+## 6. Portfólio de edição
 
-Robô de vendas para a Algup, nas versões WhatsApp e Instagram. A base é um projeto do meu irmão, Gui De Paoli. Eu adaptei para Windows, mudei o público e as ofertas, e criei a versão de Instagram. Ele acha profissionais autônomos, avalia o site de cada um, escreve a primeira mensagem de um jeito humano, conversa seguindo o SPIN Selling, faz follow-up e leva o lead até a reunião. Tem CRM em Google Sheets e painel. No Instagram é semiautomático, de propósito, para não arriscar a conta: o robô escreve e eu envio.
+**O que faz:** mostra 9 vídeos verticais editados por mim, com um botão para chamar no WhatsApp.
 
-*O código é privado porque guarda dados de leads (LGPD).*
+**Feito com:** site de uma página, publicado no Cloudflare Pages.
 
+<p align="center"><a href="https://marcello-portfolio.pages.dev"><img src="demos/portfolio-edicao.webp" width="260" alt="Portfólio de edição no celular"></a></p>
+
+[↑ Voltar ao início](#como-navegar)
+
+---
+
+## 7. Robô de prospecção
+
+**O que faz:** encontra profissionais autônomos e conduz a conversa até marcar uma reunião.
+
+**Como funciona:**
+
+1. Encontra o lead e avalia o site dele.
+2. Escreve a primeira mensagem.
+3. Conversa seguindo o método SPIN e faz follow-up.
+4. Leva o lead até a reunião.
+
+**No Instagram é semiautomático, de propósito:** o robô escreve e eu envio, para não arriscar a conta.
+
+**Feito com:** Python e Google Sheets. A base é um projeto do meu irmão, Gui De Paoli. Eu adaptei para Windows, mudei o público e as ofertas, e criei a versão de Instagram.
+
+**Por que não tem link:** o código é privado porque guarda dados de leads (LGPD).
+
+[↑ Voltar ao início](#como-navegar)
