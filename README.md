@@ -20,10 +20,11 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 | 2 | [Sede de agentes](#2-sede-de-agentes) | 8 agentes de IA produzem meu Instagram | [Demo](#2-sede-de-agentes) |
 | 3 | [Carrosséis do @celo.tech](#3-carrosséis-do-celotech) | Pesquisa, cria e publica posts de IA todo dia | [Abrir](https://www.instagram.com/celo.tech/) |
 | 4 | [Carrosséis da AlgUp](#4-carrosséis-da-algup) | Carrosséis automáticos para uma agência de marketing | [Abrir](https://www.instagram.com/algupdigital/) |
-| 5 | [Loja KRAVEN](#5-loja-kraven) | E-commerce de camisetas de academia | [Abrir](https://kraven-loja.netlify.app) |
-| 6 | [Site da Algup](#6-site-da-algup) | Site de agência para enviar por WhatsApp | [Abrir](https://algup.netlify.app) |
-| 7 | [Portfólio de edição](#7-portfólio-de-edição) | Página com meus vídeos para captar clientes | [Abrir](https://marcello-portfolio.pages.dev) |
-| 8 | [Robô de prospecção](#8-robô-de-prospecção) | Encontra leads e conversa até a reunião | Privado |
+| 5 | [Sobra](#5-sobra) | App que mostra quanto você ainda pode gastar | [Abrir](https://sobra-app-demo.netlify.app) |
+| 6 | [Loja KRAVEN](#6-loja-kraven) | E-commerce de camisetas de academia | [Abrir](https://kraven-loja.netlify.app) |
+| 7 | [Site da Algup](#7-site-da-algup) | Site de agência para enviar por WhatsApp | [Abrir](https://algup.netlify.app) |
+| 8 | [Portfólio de edição](#8-portfólio-de-edição) | Página com meus vídeos para captar clientes | [Abrir](https://marcello-portfolio.pages.dev) |
+| 9 | [Robô de prospecção](#9-robô-de-prospecção) | Encontra leads e conversa até a reunião | Privado |
 
 ---
 
@@ -107,7 +108,28 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 5. Loja KRAVEN
+## 5. Sobra
+
+**O que faz:** app de finanças pessoais que responde a pergunta *"quanto eu ainda posso gastar até a próxima renda?"*.
+
+**Como funciona:**
+
+1. Mostra o saldo e quanto está livre para gastar por dia.
+2. Lista os compromissos e as parcelas do mês.
+3. O "Posso comprar?" diz se uma compra cabe, à vista ou parcelada.
+4. Mostra o planejamento dos próximos 6 meses.
+
+**Feito com:** Next.js, React, TypeScript, Supabase e testes automatizados com Playwright. Projeto em parceria com o meu irmão, Gui De Paoli.
+
+**Observação:** o link abre o modo demonstração, com dados de exemplo.
+
+<p align="center"><a href="https://sobra-app-demo.netlify.app"><img src="demos/sobra.webp" width="260" alt="Telas do Sobra no celular"></a></p>
+
+[↑ Voltar ao início](#como-navegar)
+
+---
+
+## 6. Loja KRAVEN
 
 **O que faz:** loja virtual de camisetas oversized de academia.
 
@@ -126,7 +148,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 6. Site da Algup
+## 7. Site da Algup
 
 **O que faz:** apresenta uma agência de audiovisual e tráfego pago para quem recebe o link pelo WhatsApp.
 
@@ -140,7 +162,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 7. Portfólio de edição
+## 8. Portfólio de edição
 
 **O que faz:** mostra 9 vídeos verticais editados por mim, com um botão para chamar no WhatsApp.
 
@@ -152,7 +174,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 ---
 
-## 8. Robô de prospecção
+## 9. Robô de prospecção
 
 **O que faz:** encontra profissionais autônomos e conduz a conversa até marcar uma reunião.
 
