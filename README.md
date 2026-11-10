@@ -16,7 +16,7 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 
 | | Projeto | Em uma frase | Ver |
 |:-:|---|---|:-:|
-| 1 | [Editor de Reels](#1-editor-de-reels) | Entra o vídeo bruto, sai o Reels editado | [Abrir](https://www.instagram.com/celo.tech/) |
+| 1 | [Editor de Reels](#1-editor-de-reels) | Entra o vídeo bruto, sai o Reels editado | [Vídeo](https://youtu.be/6wW6w726Wt4) |
 | 2 | [Sede de agentes](#2-sede-de-agentes) | 8 agentes de IA produzem meu Instagram | [Demo](#2-sede-de-agentes) |
 | 3 | [Carrosséis do @celo.tech](#3-carrosséis-do-celotech) | Pesquisa, cria e publica posts de IA todo dia | [Abrir](https://www.instagram.com/celo.tech/) |
 | 4 | [Carrosséis da AlgUp](#4-carrosséis-da-algup) | Carrosséis automáticos para uma agência de marketing | [Abrir](https://www.instagram.com/algupdigital/) |
@@ -31,6 +31,8 @@ Clique no nome do projeto para ler como ele funciona, ou em **Abrir** para ver o
 ## 1. Editor de Reels
 
 **O que faz:** transforma um vídeo bruto e um roteiro em um Reels pronto para postar.
+
+▶️ **[Assista ao sistema funcionando (1min43)](https://youtu.be/6wW6w726Wt4)**
 
 **Como funciona:**
 
